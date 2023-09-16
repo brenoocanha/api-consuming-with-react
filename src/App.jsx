@@ -1,8 +1,11 @@
+import GlobalStyle from "./styles/global"
+
 function App() {
 
   return (
     <>
-      <div>API Rick and Morty</div>
+      <GlobalStyle />
+      <h1>API Rick and Morty</h1>
     </>
   )
 }
