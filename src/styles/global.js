@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Lato', sans-serif;
         box-sizing: border-box;
+        color: #FFFFFF;
     }
 
     body {
@@ -15,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
     img {
         max-width: 100%;
         display: block;
+    }
+
+    html {
+        font-size: 62.5%;
     }
 `;
 

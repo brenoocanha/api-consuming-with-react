@@ -1,3 +1,4 @@
+import { Application } from "./components/Application"
 import GlobalStyle from "./styles/global"
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>API Rick and Morty</h1>
+      <Application />
     </>
   )
 }
