@@ -39,13 +39,14 @@ export function Application() {
         <ContentCharacters>
           <div>
             {characters &&
-              characters.map(({ image, name, species, gender }) => {
+              characters.map(({ image, name, species, gender, id }) => {
                 return (
                   <CardCharacter
                     image={image}
                     name={name}
                     gender={gender}
                     species={species}
+                    key={id}
                   />
                 );
               })}
